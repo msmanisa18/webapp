@@ -1,5 +1,5 @@
 <html>
   <body>
-  <h1>Sign Up Page</h1>
+  <h1>Create Account</h1>
   </body>
   </html>
