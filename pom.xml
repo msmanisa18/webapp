@@ -19,6 +19,19 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>testrepo</name>
+			<url>http://15.207.16.181:8081/repository/testrepo/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>testrepo</name>
+			<url>http://15.207.16.181:8081/repository/testrepo/</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
   <dependencies>
   <dependency>
       <groupId>javax.servlet</groupId>
